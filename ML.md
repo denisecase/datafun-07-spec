@@ -6,11 +6,9 @@ Explore fundamental ML concepts using Python's statistical and visualization lib
 Here's the missing part of the general specification. This goes after the logging section.
 Renumber the sections to be consistent with the outline in the general specification.
 
-## Module Specification
+## Requirements
 
-### Requirements
-
-#### 5. Data Acquisition
+### 5. Data Acquisition
 
 Load the Seaborn tips dataset like we did the iris dataset.
 
@@ -23,7 +21,7 @@ df = sns.load_dataset('tips')
 
 ```
 
-#### 6. Basic Data Exploration
+### 6. Basic Data Exploration
 
 First, use pandas to perform the basic data exploration tasks as the initial steps of
 any data analysis project:
@@ -54,7 +52,7 @@ df.hist(figsize=(10, 8))
 plt.show()
 ```
 
-#### 7. Data Visualization
+### 7. Data Visualization
 
 Create a scatter chart of total bill amount vs tip amount.
 For example:
@@ -68,7 +66,7 @@ plt.title('Tip vs Total Bill')
 plt.show()
 ```
 
-#### 9. Model Building
+### 8. Model Building
 
 Build a simple linear regression model to predict tip amount based on total bill amount.
 
@@ -126,7 +124,7 @@ plt.show()
 # How do you know? Why or why not? Use numbers, be specific. 
 ```
 
-#### 10. Storytelling and Presentation
+### 9. Storytelling and Presentation
 
 Interpret the process and results to craft a narrative around your findings.
 Add additional visualizations around the independent (bill amount) and dependent variable (tip amount).

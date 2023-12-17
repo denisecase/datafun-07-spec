@@ -17,7 +17,6 @@ Later (or propose a project):
 
 1. NLP. Web Mining and Natural Language Processing (NLP): Delve into the basics of web mining and NLP using Python's NLTK library. This area will allow you to explore text processing and extraction of information from web sources.
 
-
 Each of these areas represents a critical component of data analytics, and this project guides you through applying these concepts in a practical setting.
 The goal is not mastery; it's to gain a basic understanding and appreciation of their role and potential in the field of data analytics and learn where you might want to focus your efforts in the future.
 
@@ -38,21 +37,19 @@ The specification is similar to early projects, but you'll need to tailor it to 
 
 Create a new GitHub repository with a README.md and a code file with the specified name.
 
-### Version Control with Git
+## Version Control with Git
 
 Use Git for version control.
 Document your workflow for managing the project in your README.md.
 
-## Module Specification
-
-### Objective
+## Objective
 
 Explore an area of applied data analytics.
 Incorporate logging to document the process and provide feedback.
 
-### Requirements
+## Requirements
 
-#### 1. Environment Setup
+### 1. Environment Setup
 
 1. Create and activate a project virtual environment.
 1. Install all required packages into your local project virtual environment.
@@ -60,16 +57,16 @@ Incorporate logging to document the process and provide feedback.
 1. Document the process and commands you used in your README.md.
 1. Add a .gitignore file to your project with useful entries.
 
-#### 2. Project Start
+### 2. Project Start
 
 1. Create a docstring or markdown cell with a brief introduction to your project.
 1. Include the usual introduction information.
 
-#### 3. Import Dependencies
+### 3. Import Dependencies
 
 Import the required dependencies, following the conventional order.
 
-#### 4. Logging
+### 4. Logging
 
 Logging is recommended for all script and notebook projects.
 Implement logging to enhance debugging and maintain a record of program execution.
@@ -81,7 +78,7 @@ Implement logging to enhance debugging and maintain a record of program executio
 1. Log other major events using logging.info().
 1. Log the start and end of major functions using logging.debug().
 
-#### 5. Sections based on your choice of Applied Data Analytics
+### 5. Sections based on your choice of Applied Data Analytics
 
 Choose the sections for this area depending on your choice
 and the specification details provided in their own document:
@@ -96,13 +93,13 @@ Some (notebooks) can show execution in GitHub, others may need screenshots in th
 
 Making good tool and process decisions is critical for professional data analysts.
 
-### Code Design
+## Code Design
 
 - Begin your code file with a summary including the title, author, date, and project's purpose. This provides an immediate understanding of the code file objective.
 - Ensure your code and presentation are neat, well-organized, and follow good coding practices. This includes proper variable naming, consistent code style, and logical organization of code cells.
 - Format your code using comments or Markdown features to enhance readability.
 
-### Code Structure and Documentation
+## Code Structure and Documentation
 
 Once the code runs without errors, focus on how the content is structured and documented.
 Organize your code into well-defined sections, each with a clear purpose and header.
@@ -110,7 +107,7 @@ Provide context, explain your analysis, and share findings.
 Make your code file informative and engaging.
 Use comments and text to explain the purpose and functionality of the code, especially complex or non-obvious code segments.
 
-### Code Execution
+## Code Execution
 
 Run your code to ensure it executes without errors.
 Verify all code runs and visualizations render as expected.
@@ -119,7 +116,7 @@ Confirm that your code renders well on GitHub, so your work is accessible to oth
 If working in a script, use conditional logic to ensure the script only runs
 when executed directly and execute a main() function that contains the program logic.
 
-### Evaluation Criteria
+## Evaluation Criteria
 
 - Functionality: The project should be functional and meet all requirements.
 - Documentation: The project should be well-written and well-documented.

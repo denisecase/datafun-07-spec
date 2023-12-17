@@ -5,11 +5,9 @@ App. Interactive Analytics App using Shiny for Python: Get introduced to creatin
 Here's the missing part of the general specification. This goes after the logging section.
 Renumber the sections to be consistent with the outline in the general specification.
 
-## Module Specification
+## Requirements
 
-### Requirements
-
-#### 5. Data Acquisition
+### 5. Data Acquisition
 
 Read about Shiny for Python. 
 Go to the Examples, and find "Read local CSV".
@@ -53,7 +51,7 @@ def server(input, output, session):
 app = App(app_ui, server)
 ```
 
-#### 6. Add an Input Widget to the App ui
+### 6. Add an Input Widget to the App ui
 
 Add an input slider to the input ui.
 Provide the logic in the server function to provide reactive output.
@@ -94,7 +92,7 @@ def server(input, output, session):
 app = App(app_ui, server)
 ```
 
-#### 7. Customize the Widget to Limit Displacement
+### 7. Customize the Widget to Limit Displacement
 
 Modify the slider so it refers to the displacement column in the table.
 Sliding it will set the minimum displacement for the table.
@@ -109,7 +107,7 @@ app_ui = ui.page_fluid(
 )
 ```
 
-#### 8. Provide Slider Logic in the Server Function
+### 8. Provide Slider Logic in the Server Function
 
 Customize the server logic so the slider will set the minimum displacement for the table.
 
@@ -144,7 +142,7 @@ def server(input, output, session):
 app = App(app_ui, server)
 ```
 
-#### 9. Storytelling and Presentation
+### 9. Storytelling and Presentation
 
 Interpret the process and results to craft a narrative around your findings.
 Add additional visualizations and widgets.
