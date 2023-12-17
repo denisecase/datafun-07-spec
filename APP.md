@@ -77,7 +77,6 @@ def server(input, output, session):
     @output
     @render.text
     def out_text():
-        return f"You chose {input.x()}"
         return f"Showing cars with displacement > {input.x()}"
 
 
